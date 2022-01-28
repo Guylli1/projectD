@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disney+</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <a class="btn" href="#">Entrar</a>
+    <div class="hero-content">
+      <img class="logo" src="./img/logo-nopad.svg" alt="Disney Plus" />
+      <h1>
+        As melhores histórias <br />
+        em um só lugar.
+      </h1>
+      <div class="precos-container">
+        <div class="preco">
+          <div>
+            <span>R$ 27,90</span>/mês*
+            <p>Inclui teste grátis de 7 dias.</p>
+          </div>
+          <a id="testNorm" href="#">Teste grátis</a>
+        </div>
+        <div class="preco">
+          <span>De R$ 334 por R$ 279,90</span>*ano
+          <p>Inclui teste grátis de 7 dias.</p>
+          <a id="testPro" href="#">Teste grátis</a>
+        </div>
+      </div>
+      <p>
+        *Oferta válida para o Brasil de 17/1/2022 a 32/12/2022. O preço poderá
+        variar em outras moedas ou plataformas.
+      </p>
+      <img class="franquias" src="./img/disney-franchise-logos.png" alt="" />
+    </div>
+    <div id="modal">
+      <div id="closer">X</div>
+      <h1 class="cadastro">Cadastre-se para ganhar 7 dias grátis.</h1>
+      <label for="name">Nome</label>
+      <input id="text" type="text" placeholder="Digite seu nome" />
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Digite seu Email" />
+      <label for="password" class="password">Senha</label>
+      <input type="password" placeholder="Digite sua senha" />
+      <a class="senha" href="#">esqueci minnha senha</a>
+      <div class="send">Enviar</div>
+    </div>
+  </body>
+</html>
